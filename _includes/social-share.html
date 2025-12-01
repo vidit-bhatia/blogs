@@ -1,0 +1,99 @@
+<div class="social-share">
+  <h3>Share this article</h3>
+  <div class="share-buttons">
+    <!-- LinkedIn Share -->
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | uri_escape }}" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       class="share-button linkedin">
+      Share on LinkedIn
+    </a>
+    
+    <!-- Twitter Share -->
+    <a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url | uri_escape }}&text={{ page.title | uri_escape }}" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       class="share-button twitter">
+      Share on Twitter
+    </a>
+    
+    <!-- Copy Link -->
+    <button onclick="copyToClipboard('{{ page.url | absolute_url }}')" 
+            class="share-button copy">
+      Copy Link
+    </button>
+  </div>
+</div>
+
+<script>
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(function() {
+    alert('Link copied to clipboard!');
+  }, function(err) {
+    console.error('Could not copy text: ', err);
+  });
+}
+</script>
+
+<style>
+.social-share {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-top: 1px solid #e1e4e8;
+}
+
+.social-share h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.share-button {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  display: inline-block;
+  transition: opacity 0.2s;
+}
+
+.share-button:hover {
+  opacity: 0.8;
+}
+
+.share-button.linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+
+.share-button.twitter {
+  background-color: #1da1f2;
+  color: white;
+}
+
+.share-button.copy {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.post-tags {
+  margin: 1rem 0;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #f1f8ff;
+  color: #0366d6;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 3px;
+  font-size: 0.875rem;
+}
+</style>

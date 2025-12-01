@@ -1,0 +1,44 @@
+# Site settings
+title: My Blog
+email: your-email@example.com
+description: >-
+  A blog platform for writing and sharing articles on GitHub Pages and LinkedIn
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # your site URL
+twitter_username: yourusername
+github_username: yourusername
+linkedin_username: yourusername
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
