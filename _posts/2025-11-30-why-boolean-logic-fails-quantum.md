@@ -8,6 +8,8 @@ author: Vidit Bhatia
 description: "Discover why the Boolean logic that powers classical computers completely breaks down in quantum computing, and get a glimpse of what replaces it."
 ---
 
+![Header Image]({{ "/assets/images/headerimage.png" | relative_url }})
+
 Welcome to the first post in this quantum computing series! If you're wondering why we're starting with Boolean logic instead of jumping straight into the quantum stuff—well, you can't appreciate how weird quantum computing is until you understand what it's *not*. And what it's not is classical computing, which is built entirely on Boolean logic.
 
 Boolean logic is the foundation of every computer you've ever touched. It's the DNA of digital systems. So before we explore the strange world of qubits and superposition, we need to understand what makes classical computing tick—and why those same principles spectacularly fail in the quantum realm.
@@ -56,6 +58,9 @@ Let's see why classical Boolean gates fail with qubits:
 ### Problem 1: No Definite Inputs
 
 Boolean logic assumes you know the exact state of your inputs. An AND gate expects Input A to be either 0 or 1, and Input B to be either 0 or 1. But a qubit might be 70% likely to be 0 and 30% likely to be 1. What does "0 AND 30%-1" even mean? Classical gates simply don't have a framework for this.
+
+![Confused AND Gate with Quantum Inputs]({{ "/assets/images/Gates_image.png" | relative_url }})
+*When you try to feed qubits in superposition into a classical AND gate, things get... confused.*
 
 ### Problem 2: Measurement Destroys Information
 
