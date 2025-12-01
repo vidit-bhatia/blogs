@@ -4,7 +4,7 @@ title: "Why Your Classical AND Gates Won't Work in Quantum Computing"
 date: 2025-11-30 10:00:00 +0000
 categories: quantum-computing
 tags: [boolean-logic, quantum-gates, classical-computing, basics]
-author: Your Name
+author: Vidit Bhatia
 description: "Discover why the Boolean logic that powers classical computers completely breaks down in quantum computing, and get a glimpse of what replaces it."
 ---
 

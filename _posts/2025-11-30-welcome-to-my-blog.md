@@ -4,7 +4,7 @@ title: "Welcome to My Blog"
 date: 2025-11-30 00:00:00 +0000
 categories: general
 tags: [introduction, welcome]
-author: Your Name
+author: Vidit Bhatia
 description: "An introductory post to my new blog"
 ---
 

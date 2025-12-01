@@ -6,18 +6,26 @@ permalink: /about/
 
 ## About This Blog
 
-This blog is dedicated to sharing insights, tutorials, and experiences in technology and software development.
+This blog is dedicated to exploring the fascinating intersection of quantum computing, machine learning, and consciousness. Through a unique blend of rigorous technical content and philosophical reflection, we journey from classical Boolean logic through quantum mechanics to quantum machine learning, with thoughtful parallels drawn to Vedantic philosophy.
+
+Each post builds on the previous ones, creating a comprehensive learning path for curious minds—whether you're a software engineer, ML enthusiast, or simply fascinated by the quantum world.
 
 ## About the Author
 
-[Add your bio here]
+**Vidit Bhatia** is a technology professional passionate about quantum computing, artificial intelligence, and the philosophical implications of emerging technologies. With a background in software engineering and a deep interest in both cutting-edge computational paradigms and ancient wisdom traditions, Vidit bridges the worlds of modern science and timeless philosophy.
+
+This blog represents a personal exploration of how quantum mechanics and Vedantic thought offer complementary lenses for understanding reality, consciousness, and computation—always maintaining clear boundaries between empirical science and spiritual inquiry.
 
 ## Connect With Me
 
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [Your GitHub Profile]
-- Twitter: [Your Twitter Handle]
+- **LinkedIn**: [linkedin.com/in/viditbhatia](https://www.linkedin.com/in/viditbhatia/)
+- **GitHub**: [github.com/vidit-bhatia](https://github.com/vidit-bhatia)
+- **Twitter**: [@yourusername](https://twitter.com/yourusername) _(update with your handle)_
 
 ## Contact
 
-Feel free to reach out at [your-email@example.com]
+Interested in discussing quantum computing, ML, or the intersection of science and philosophy? Feel free to connect on LinkedIn or reach out via the blog's comment sections.
+
+---
+
+_Note: This blog is a work in progress, with new posts added regularly as part of a structured 13-post series exploring quantum computing from foundations to advanced concepts._

@@ -1,14 +1,14 @@
 # Site settings
 title: Quantum Computing Journey
-email: your-email@example.com
+email: vidit.bhatia@example.com  # Update with your actual email if you want it public
 description: >-
   Exploring quantum computing, from Boolean logic to quantum gates,
   with reflections on Vedanta and consciousness
 baseurl: "/blogs" # the subpath of your site, e.g. /blog
 url: "" # your site URL - leave empty for GitHub Pages
-twitter_username: yourusername
-github_username: yourusername
-linkedin_username: yourusername
+twitter_username: yourusername  # Update with your Twitter handle
+github_username: vidit-bhatia
+linkedin_username: viditbhatia
 
 # Build settings
 markdown: kramdown
