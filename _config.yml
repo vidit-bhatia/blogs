@@ -5,7 +5,7 @@ description: >-
   Exploring quantum computing, from Boolean logic to quantum gates,
   with reflections on Vedanta and consciousness
 baseurl: "/blogs" # the subpath of your site, e.g. /blog
-url: "" # your site URL - leave empty for GitHub Pages
+url: "https://vidit-bhatia.github.io" # your site URL
 twitter_username: BhatiaVidi5709
 github_username: vidit-bhatia
 linkedin_username: viditbhatia
