@@ -1,6 +1,19 @@
-# Blog Platform for GitHub Pages & LinkedIn
+# Quantum Computing Journey Blog
 
-A Jekyll-based blog platform for writing and publishing articles in Markdown. Designed for easy deployment to GitHub Pages with built-in LinkedIn sharing capabilities.
+A Jekyll-based blog exploring quantum computing, from Boolean logic to quantum gates, with philosophical reflections on Vedanta and consciousness. Designed for GitHub Pages deployment with LinkedIn sharing capabilities.
+
+## ✅ Recent Fixes (Dec 1, 2025)
+
+**Issue**: Blog posts weren't displaying - pages were empty except the homepage.
+
+**Root Cause**: Missing `default.html` layout and improper configuration.
+
+**Fixes Applied**:
+1. Created `_layouts/default.html` - The base template that all pages inherit from
+2. Created `_layouts/home.html` - Homepage template with post listing
+3. Added `assets/css/style.css` - Custom styling for the blog
+4. Fixed `_config.yml` - Removed conflicting collections configuration
+5. Updated `index.md` and `about.md` - Proper layout references
 
 ## Features
 

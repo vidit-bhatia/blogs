@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-# About This Blog
+## About This Blog
 
 This blog is dedicated to sharing insights, tutorials, and experiences in technology and software development.
 
