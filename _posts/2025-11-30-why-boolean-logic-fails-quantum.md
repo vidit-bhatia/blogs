@@ -119,37 +119,37 @@ This is just the beginning of our quantum journey. Here's what we'll explore in 
 
 ### Phase 1: Quantum Foundations
 
-1. **"Superposition Explained: Why Qubits Aren't Just Fancy Coins"** *(Science)* - What superposition actually means mathematically, probability amplitudes, and why it's not just "both states at once"
+**Post 2:** **"Superposition Explained: Why Qubits Aren't Just Fancy Coins"** *(Science)* - What superposition actually means mathematically, probability amplitudes, and why it's not just "both states at once"
 
-2. **"The No-Cloning Theorem: Why You Can't Copy-Paste Quantum Information"** *(Science)* - One of quantum mechanics' most surprising constraints and its implications for quantum computing and cryptography
+**Post 3:** **"The No-Cloning Theorem: Why You Can't Copy-Paste Quantum Information"** *(Science)* - One of quantum mechanics' most surprising constraints and its implications for quantum computing and cryptography
 
-3. **"Quantum Measurement: The Observer Effect That Changes Everything"** *(Science)* - How measurement collapses superposition, what we mean by "observing," and why it's destructive
+**Post 4:** **"Quantum Measurement: The Observer Effect That Changes Everything"** *(Science)* - How measurement collapses superposition, what we mean by "observing," and why it's destructive
 
-4. **"The Observer and the Witness: Quantum Measurement Meets Vedantic Consciousness"** *(Philosophical Reflection)* - Exploring conceptual parallels between the quantum observer's role and Vedanta's witness consciousness (Sakshi)
+**Post 5:** **"The Observer and the Witness: Quantum Measurement Meets Vedantic Consciousness"** *(Philosophical Reflection)* - Exploring conceptual parallels between the quantum observer's role and Vedanta's witness consciousness (Sakshi)
 
 ### Phase 2: Single & Multi-Qubit Operations
 
-5. **"Single-Qubit Gates: Your First Quantum Operations"** *(Science)* - Pauli gates (X, Y, Z), Hadamard gate, phase gates, and the Bloch sphere visualization
+**Post 6:** **"Single-Qubit Gates: Your First Quantum Operations"** *(Science)* - Pauli gates (X, Y, Z), Hadamard gate, phase gates, and the Bloch sphere visualization
 
-6. **"The CNOT Gate: Quantum's Version of 'If-Then' Logic"** *(Science)* - Two-qubit gates, controlled operations, and how quantum conditional logic works
+**Post 7:** **"The CNOT Gate: Quantum's Version of 'If-Then' Logic"** *(Science)* - Two-qubit gates, controlled operations, and how quantum conditional logic works
 
-7. **"Entanglement Explained: The Spooky Action That Powers Quantum Computing"** *(Science)* - What entanglement really is, Bell states, and why Einstein called it "spooky"
+**Post 8:** **"Entanglement Explained: The Spooky Action That Powers Quantum Computing"** *(Science)* - What entanglement really is, Bell states, and why Einstein called it "spooky"
 
-8. **"Non-Locality Meets Non-Duality: When Quantum Physics Hints at Oneness"** *(Philosophical Reflection)* - Drawing parallels between quantum entanglement and Vedanta's concept of non-duality (Advaita)
+**Post 9:** **"Non-Locality Meets Non-Duality: When Quantum Physics Hints at Oneness"** *(Philosophical Reflection)* - Drawing parallels between quantum entanglement and Vedanta's concept of non-duality (Advaita)
 
 ### Phase 3: Building Quantum Systems
 
-9. **"Building Quantum Circuits: Chaining Gates Together"** *(Science)* - How to design quantum algorithms, circuit diagrams, and thinking in quantum
+**Post 10:** **"Building Quantum Circuits: Chaining Gates Together"** *(Science)* - How to design quantum algorithms, circuit diagrams, and thinking in quantum
 
-10. **"Universal Quantum Gates: The Building Blocks of Any Quantum Algorithm"** *(Science)* - Gate decomposition, universality, and the Toffoli gate
+**Post 11:** **"Universal Quantum Gates: The Building Blocks of Any Quantum Algorithm"** *(Science)* - Gate decomposition, universality, and the Toffoli gate
 
-11. **"Maya and Measurement: Appearance, Reality, and Quantum Potentiality"** *(Philosophical Reflection)* - Exploring how Vedanta's Maya (illusion) and quantum superposition both challenge our notions of definite reality
+**Post 12:** **"Maya and Measurement: Appearance, Reality, and Quantum Potentiality"** *(Philosophical Reflection)* - Exploring how Vedanta's Maya (illusion) and quantum superposition both challenge our notions of definite reality
 
 ### Phase 4: Advanced Quantum Concepts
 
-12. **"Reversibility and Unitarity: Why Quantum Computing Never Forgets"** *(Science)* - Deep dive into unitary operations and their implications
+**Post 13:** **"Reversibility and Unitarity: Why Quantum Computing Never Forgets"** *(Science)* - Deep dive into unitary operations and their implications
 
-13. **"Quantum Interference: Making Wrong Answers Cancel Out"** *(Science)* - How quantum algorithms exploit interference patterns to find solutions
+**Post 14:** **"Quantum Interference: Making Wrong Answers Cancel Out"** *(Science)* - How quantum algorithms exploit interference patterns to find solutions
 
 ---
 
@@ -158,3 +158,5 @@ This is just the beginning of our quantum journey. Here's what we'll explore in 
 Each post will build on the previous ones, creating a journey that honors both the technical depth and philosophical richness of quantum computing. Bookmark this series and stay tuned!
 
 **Want to dive deeper now?** Check out IBM's Qiskit documentation on quantum gates, or play with quantum circuits at [IBM Quantum Experience](https://quantum-computing.ibm.com/).
+
+**Recommended Reading**: For a hands-on introduction to programming quantum computers with complete instructions for IBM's quantum systems, check out [*Hidden In Plain Sight 10: How To Program A Quantum Computer*](https://www.goodreads.com/book/show/41428716-hidden-in-plain-sight-10) by Andrew H. Thomas—it bridges the gap between quantum mechanics theory and practical quantum programming beautifully.
