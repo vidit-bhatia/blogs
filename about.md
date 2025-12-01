@@ -20,7 +20,7 @@ This blog represents a personal exploration of how quantum mechanics and Vedanti
 
 - **LinkedIn**: [linkedin.com/in/viditbhatia](https://www.linkedin.com/in/viditbhatia/)
 - **GitHub**: [github.com/vidit-bhatia](https://github.com/vidit-bhatia)
-- **Twitter**: [@yourusername](https://twitter.com/yourusername) _(update with your handle)_
+- **Twitter**: [@BhatiaVidi5709](https://twitter.com/BhatiaVidi5709)
 
 ## Contact
 
