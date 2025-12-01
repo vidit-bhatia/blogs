@@ -59,7 +59,8 @@ Let's see why classical Boolean gates fail with qubits:
 
 Boolean logic assumes you know the exact state of your inputs. An AND gate expects Input A to be either 0 or 1, and Input B to be either 0 or 1. But a qubit might be 70% likely to be 0 and 30% likely to be 1. What does "0 AND 30%-1" even mean? Classical gates simply don't have a framework for this.
 
-![Confused AND Gate with Quantum Inputs]({{ "/assets/images/Gates_image.png" | relative_url }})
+<img src="{{ "/assets/images/Gates_image.png" | relative_url }}" alt="Confused AND Gate with Quantum Inputs" width="400">
+
 *When you try to feed qubits in superposition into a classical AND gate, things get... confused.*
 
 ### Problem 2: Measurement Destroys Information
