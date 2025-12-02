@@ -175,15 +175,19 @@ This is why quantum algorithms are so different from classical ones—you're not
 Before we wrap up, let's clear up some common confusions:
 
 **Myth 1: "A qubit is both 0 and 1 at the same time"**
+
 - Reality: A qubit is in a quantum superposition state described by probability amplitudes. It's not *both* in a classical sense—it's in a fundamentally quantum state.
 
 **Myth 2: "Superposition is just our ignorance, like not knowing if Schrödinger's cat is alive or dead"**
+
 - Reality: No. Superposition is a real physical state, not epistemic uncertainty. This is proven by interference experiments where quantum superpositions produce results impossible with classical mixtures.
 
 **Myth 3: "Measurement reveals which state the qubit was always in"**
+
 - Reality: No. Measurement doesn't reveal a pre-existing state—it forces the qubit to "choose" a definite state. This is what makes quantum mechanics fundamentally probabilistic.
 
 **Myth 4: "Superposition lets you do infinite parallel computations"**
+
 - Reality: Sort of, but you can only extract one result. The power comes from structuring computations so that interference guides you toward the right answer.
 
 ## Programming Superposition: A Glimpse
@@ -246,7 +250,7 @@ Understanding superposition—really understanding it, not just the "coin flip" 
 
 ## What's Next?
 
-Now that you understand superposition, you're ready for one of quantum mechanics' most surprising constraints: the **no-cloning theorem**. 
+Now that you understand superposition, you're ready for one of quantum mechanics' most surprising constraints: the **no-cloning theorem**.
 
 Why can't you copy a quantum state? What does this mean for quantum computing and cryptography? And how does this limitation actually become a feature in quantum protocols?
 
