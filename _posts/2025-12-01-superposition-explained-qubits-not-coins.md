@@ -26,7 +26,24 @@ A spinning coin has a 50% chance of landing heads and 50% chance of landing tail
 
 But a qubit in superposition isn't just about probabilities—it's about **probability amplitudes**. These are complex numbers (involving both real and imaginary components) that determine the likelihood of measuring 0 or 1. The actual probability is the *square* of the amplitude's magnitude.
 
-Why does this matter? Because amplitudes can be negative or even complex, while probabilities are always positive real numbers between 0 and 1. This mathematical difference is what enables quantum interference—the ability for different computational paths to cancel each other out or reinforce each other.
+**Here's a concrete example:** Imagine you have two paths to the same outcome. 
+
+With classical probabilities:
+- Path A contributes: 30% probability
+- Path B contributes: 20% probability  
+- Total probability: 30% + 20% = 50%
+
+With quantum amplitudes:
+- Path A contributes: amplitude of +0.5
+- Path B contributes: amplitude of +0.5
+- Combined amplitude: 0.5 + 0.5 = 1.0
+- Final probability: 1.0² = 100% (they constructively interfere!)
+
+But if Path B had amplitude -0.5 instead:
+- Combined amplitude: 0.5 + (-0.5) = 0
+- Final probability: 0² = 0% (they destructively interfere and cancel out!)
+
+This is impossible with classical probabilities—you can't add two positive probabilities and get zero. But with amplitudes, you can! This is how quantum algorithms "cancel out" wrong answers and amplify correct ones.
 
 ### 2. Quantum Phase: The Hidden Information
 
