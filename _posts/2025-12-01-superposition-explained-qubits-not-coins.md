@@ -140,6 +140,9 @@ That last point is crucial. If this were just classical randomness (like a coin 
 
 How do you visualize something that involves complex numbers in high-dimensional space? Enter the **Bloch sphere**—one of the most elegant concepts in quantum computing.
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Bloch_sphere.svg" alt="Bloch Sphere visualization" width="400">
+*The Bloch sphere: Any qubit state can be represented as a point on this sphere. Image: Wikimedia Commons*
+
 For a single qubit, you can represent *any* possible quantum state as a point on the surface of a sphere:
 
 - The north pole represents `|0⟩`
