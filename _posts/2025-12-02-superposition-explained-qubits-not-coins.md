@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Superposition Explained: Why Qubits Aren't Just Fancy Coins"
-date: 2025-12-01 10:00:00 +0000
+date: 2025-12-02 10:00:00 +0000
 categories: quantum-computing
 tags: [superposition, qubits, quantum-mechanics, probability-amplitudes, bloch-sphere]
 author: Vidit Bhatia
