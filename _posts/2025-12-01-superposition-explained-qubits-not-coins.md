@@ -29,17 +29,20 @@ But a qubit in superposition isn't just about probabilities—it's about **proba
 **Here's a concrete example:** Imagine you have two paths to the same outcome. 
 
 With classical probabilities:
+
 - Path A contributes: 30% probability
 - Path B contributes: 20% probability  
 - Total probability: 30% + 20% = 50%
 
 With quantum amplitudes:
+
 - Path A contributes: amplitude of +0.5
 - Path B contributes: amplitude of +0.5
 - Combined amplitude: 0.5 + 0.5 = 1.0
 - Final probability: 1.0² = 100% (they constructively interfere!)
 
 But if Path B had amplitude -0.5 instead:
+
 - Combined amplitude: 0.5 + (-0.5) = 0
 - Final probability: 0² = 0% (they destructively interfere and cancel out!)
 
@@ -105,6 +108,7 @@ The key constraint: `|α|² + |β|² = 1`. This ensures that when you measure th
 ### What Does This Actually Mean?
 
 When we say a qubit is in superposition, we mean:
+
 - Before measurement, it exists in this quantum state described by α and β
 - The probability of measuring 0 is `|α|²` (the squared magnitude of α)
 - The probability of measuring 1 is `|β|²` (the squared magnitude of β)
@@ -125,6 +129,7 @@ Start with a qubit in state `|0⟩`. Apply a Hadamard gate. You get:
 Here, `α = 1/√2 ≈ 0.707` and `β = 1/√2 ≈ 0.707`.
 
 What does this mean practically?
+
 - If you measure this qubit, you have a 50% chance of getting 0 and a 50% chance of getting 1
 - But before measurement, the qubit is genuinely in this superposition state
 - If you apply another Hadamard gate before measuring, you can make the qubit return to `|0⟩` with 100% certainty—something impossible with classical probabilities
@@ -164,7 +169,7 @@ This is sometimes called "quantum parallelism." A quantum operation on those thr
 
 Here's the frustrating part: even though the quantum computer is processing all these possibilities in superposition, when you *measure* the qubits, you only get *one* answer. The superposition collapses, and you see just one of those 8 possible bit strings.
 
-So quantum computers aren't magic parallel computers that give you all answers at once. The art of quantum algorithm design is structuring your computation so that the "wrong" answers interfere destructively (cancel out) and the "right" answer interferes constructively (gets amplified).
+**So quantum computers aren't magic parallel computers that give you all answers at once. The art of quantum algorithm design is structuring your computation so that the "wrong" answers interfere destructively (cancel out) and the "right" answer interferes constructively (gets amplified).**
 
 This is why quantum algorithms are so different from classical ones—you're not just running computations; you're choreographing interference patterns in probability amplitudes.
 
@@ -236,11 +241,13 @@ For quantum computing purposes, the mathematical formalism works regardless of i
 ## The Bottom Line
 
 Superposition is not:
+
 - A coin flip or classical probability
 - The qubit being "both states" in a simple sense
 - Just our ignorance about which state it's in
 
 Superposition is:
+
 - A genuine quantum state described by complex probability amplitudes
 - A state that includes phase information with no classical analog
 - The foundation for quantum parallelism and interference
