@@ -22,6 +22,7 @@ By the end, you'll understand why quantum superposition isn't just a mathematica
 *Basic setup: particle source, barrier with two slits, and detection screen*
 
 Imagine you have:
+
 - A source that shoots particles (let's say electrons) one at a time
 - A barrier with two narrow slits in it
 - A detection screen behind the barrier that lights up wherever a particle hits
@@ -32,10 +33,10 @@ Seems straightforward, right? Let's see what happens.
 
 ## Attempt 1: "Particles Go Through One Slit or the Other"
 
-**The Reasonable Assumption:**  
+**The Reasonable Assumption:**
 Each particle is a tiny bullet. It goes through either the left slit OR the right slit. After many particles, we should see two bright bands on the screen—one behind each slit, maybe with some spread due to scattering.
 
-**What Actually Happens:**  
+**What Actually Happens:**
 We see an **interference pattern**—multiple alternating bright and dark bands across the screen. Not two bands. Many bands. And the pattern looks exactly like what you'd get if waves (not particles) were passing through both slits simultaneously and interfering with each other.
 
 <img src="{{ "/assets/images/doubleslit.jpg" | relative_url }}" alt="Interference pattern on detection screen" width="500">
@@ -44,35 +45,35 @@ We see an **interference pattern**—multiple alternating bright and dark bands 
 Bright bands appear where waves from the two slits constructively interfere (peaks align).  
 Dark bands appear where waves destructively interfere (peak meets trough, canceling out).
 
-**The Problem:**  
+**The Problem:**
 If each particle goes through only one slit, how does it "know" about the other slit to create this interference pattern? A particle going through the left slit shouldn't care whether the right slit is open or closed. But somehow, it does.
 
 ## Attempt 2: "Okay, Maybe Each Particle Goes Through Both Slits?"
 
-**The New Assumption:**  
+**The New Assumption:**
 Fine, maybe each particle somehow splits or spreads out and goes through both slits simultaneously. That would explain the interference pattern—the particle interferes with itself.
 
-**The Test:**  
+**The Test:**
 Let's close one slit and see what happens.
 
-**What Actually Happens:**  
+**What Actually Happens:**
 The interference pattern disappears. We now get a single bright band (with some spread) directly behind the open slit. This is exactly what we'd expect for particles going through one slit.
 
 <img src="{{ "/assets/images/singleslitdifraction.png" | relative_url }}" alt="Pattern with one slit closed" width="500">
 *With one slit closed: interference pattern vanishes, leaving a single band*
 
-**Wait, What?**  
-When both slits are open: interference pattern (wave behavior).  
+**Wait, What?**
+When both slits are open: interference pattern (wave behavior).
 When one slit is closed: single band (particle behavior).
 
 So closing a slit doesn't just reduce the pattern—it fundamentally changes it. The particle seems to "know" whether one or both slits are open and behaves differently accordingly.
 
 ## Attempt 3: "Let's Watch Which Slit the Particle Goes Through"
 
-**The Clever Idea:**  
+**The Clever Idea:**
 Place detectors right at the slits to catch the particle in the act. We'll definitively see which slit each particle goes through, settling this once and for all.
 
-**What Actually Happens:**  
+**What Actually Happens:**
 The moment you add detectors at the slits:
 
 1. The detectors always register the particle at ONE slit or the OTHER—never both simultaneously
@@ -82,22 +83,22 @@ The moment you add detectors at the slits:
 <img src="{{ "/assets/images/detectoratslit.png" | relative_url }}" alt="Detectors placed at slits destroy interference" width="500">
 *With detectors at slits: particle chooses one path, interference pattern disappears*
 
-**The Mind-Bending Implication:**  
-When you're not looking (no detectors at slits): interference pattern appears, as if the particle went through both slits.  
+**The Mind-Bending Implication:**
+When you're not looking (no detectors at slits): interference pattern appears, as if the particle went through both slits.
 When you are looking (detectors at slits): the particle goes through one slit, and the interference pattern vanishes.
 
 The act of observing—of measuring which slit the particle goes through—fundamentally changes what happens. It's not that we're disturbing the particle with clumsy detectors. Even extremely gentle detection methods yield the same result. The measurement itself changes reality.
 
 ## Attempt 4: "Maybe We Can Outsmart It—Delayed Choice"
 
-**The Even Cleverer Idea:**  
+**The Even Cleverer Idea:**
 What if we let the particle pass through the slits first, and then decide whether to measure which slit it went through? Surely the particle has already "chosen" its path by then, right?
 
-**The Experiment (Wheeler's Delayed Choice):**  
+**The Experiment (Wheeler's Delayed Choice):**
 Fire the particle. After it passes through the slits but before it hits the screen, quickly insert or remove the detection mechanism that determines which path it took.
 
-**What Actually Happens:**  
-If you insert detectors to measure the path: you see particle behavior (no interference).  
+**What Actually Happens:**
+If you insert detectors to measure the path: you see particle behavior (no interference).
 If you don't measure the path: you see wave behavior (interference pattern).
 
 <img src="{{ "/assets/images/delayedchoiceexperiment.png" | relative_url }}" alt="Wheeler's delayed choice experiment" width="500">
@@ -107,16 +108,16 @@ This holds true even if you make the decision after the particle has passed thro
 
 ## Attempt 5: "Firing One Particle at a Time Will Solve This"
 
-**The Last Hope:**  
+**The Last Hope:**
 Maybe particles are somehow interfering with each other. Let's fire them one at a time, with large gaps between each particle, so no particle can possibly interact with another.
 
-**What Actually Happens:**  
+**What Actually Happens:**
 Single particles still create the interference pattern—gradually. Each particle hits the screen at one location (a dot appears). But after thousands of particles, the dots build up to form the same multi-band interference pattern.
 
 <img src="{{ "/assets/images/singlesourceparticle.png" | relative_url }}" alt="Interference pattern builds up particle by particle" width="500">
 *One particle at a time: Individual dots gradually form the interference pattern*
 
-**The Inescapable Conclusion:**  
+**The Inescapable Conclusion:**
 Each individual particle is somehow interfering with itself. When both slits are open and unobserved, a single particle acts as if it simultaneously explores both paths, interferes with itself, and then appears at one location on the screen according to the interference probability pattern.
 
 This is not a figure of speech. This is what the math and experiments tell us.
@@ -131,14 +132,15 @@ After systematically eliminating every reasonable classical explanation, we're l
 
 The mathematical description from quantum mechanics is:
 
-```
+```text
 |ψ⟩ = (1/√2)|left slit⟩ + (1/√2)|right slit⟩
 ```
 
 This isn't saying "the particle is at the left slit OR the right slit and we just don't know which." It's saying "the particle is in a superposition state that includes both possibilities with specific probability amplitudes."
 
 Only when you measure does this collapse to:
-```
+
+``` text
 |ψ⟩ = |left slit⟩  OR  |ψ⟩ = |right slit⟩
 ```
 
@@ -161,6 +163,7 @@ The double-slit experiment forces us to accept something profoundly strange: the
 There is no classical explanation that fits all the experimental evidence. Particles are not tiny billiard balls following definite trajectories. They exist in superpositions of possibilities until measured. And somehow, the act of measurement—of extracting information—makes the quantum world "choose" a definite reality.
 
 Different interpretations of quantum mechanics handle this differently:
+
 - **Copenhagen interpretation**: The wavefunction is real and collapses upon measurement
 - **Many-worlds interpretation**: Every possibility actually happens in branching parallel universes
 - **Pilot wave theory**: Hidden variables guide particles through definite paths we can't observe
@@ -175,17 +178,19 @@ Is this superposition "real"? Well, it has physical consequences (the interferen
 
 Perhaps the problem is our notion of "real" itself. We assume reality consists of definite things in definite places with definite properties. Quantum mechanics suggests that at the fundamental level, reality is better described as a field of possibilities that crystallizes into definite outcomes only when observed.
 
-*(We'll explore how this quantum view of reality—where the observer plays a central role—relates to Vedantic concepts of consciousness and the nature of existence in upcoming philosophical reflection posts. The parallels are striking.)*
+(We'll explore how this quantum view of reality—where the observer plays a central role—relates to Vedantic concepts of consciousness and the nature of existence in upcoming philosophical reflection posts. The parallels are striking.)
 
 ## Try It Yourself (Virtually)
 
 Want to play with the double-slit experiment yourself? Check out these interactive simulations:
+
 - [PhET Interactive Simulations - Quantum Wave Interference](https://phet.colorado.edu/en/simulations/quantum-wave-interference)
 - Adjust slit widths, add detectors, and watch how the pattern changes in real-time
 
 ## The Bottom Line
 
 The double-slit experiment proves that:
+
 - Quantum superposition is not a mathematical trick—it's how nature works
 - Particles don't follow definite paths until measured
 - Observation fundamentally changes physical systems
@@ -197,7 +202,7 @@ No classical explanation survives contact with the experimental evidence. Every 
 
 ## What's Next?
 
-Now that you've seen how particles exist in superposition (both slits simultaneously), you're ready to explore what happens when we try to copy quantum information. 
+Now that you've seen how particles exist in superposition (both slits simultaneously), you're ready to explore what happens when we try to copy quantum information.
 
 Spoiler: nature forbids it. The **no-cloning theorem** is one of quantum mechanics' most surprising constraints, with profound implications for quantum computing and cryptography.
 

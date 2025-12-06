@@ -135,27 +135,27 @@ This is just the beginning of our quantum journey. Here's what we'll explore in 
 
 ### Phase 2: Single & Multi-Qubit Operations
 
-5. **"Single-Qubit Gates: Your First Quantum Operations"** *(Science)* - Pauli gates (X, Y, Z), Hadamard gate, phase gates, and the Bloch sphere visualization
+1. **"Single-Qubit Gates: Your First Quantum Operations"** *(Science)* - Pauli gates (X, Y, Z), Hadamard gate, phase gates, and the Bloch sphere visualization
 
-6. **"The CNOT Gate: Quantum's Version of 'If-Then' Logic"** *(Science)* - Two-qubit gates, controlled operations, and how quantum conditional logic works
+2. **"The CNOT Gate: Quantum's Version of 'If-Then' Logic"** *(Science)* - Two-qubit gates, controlled operations, and how quantum conditional logic works
 
-7. **"Entanglement Explained: The Spooky Action That Powers Quantum Computing"** *(Science)* - What entanglement really is, Bell states, and why Einstein called it "spooky"
+3. **"Entanglement Explained: The Spooky Action That Powers Quantum Computing"** *(Science)* - What entanglement really is, Bell states, and why Einstein called it "spooky"
 
-8. **"Non-Locality Meets Non-Duality: When Quantum Physics Hints at Oneness"** *(Philosophical Reflection)* - Drawing parallels between quantum entanglement and Vedanta's concept of non-duality (Advaita)
+4. **"Non-Locality Meets Non-Duality: When Quantum Physics Hints at Oneness"** *(Philosophical Reflection)* - Drawing parallels between quantum entanglement and Vedanta's concept of non-duality (Advaita)
 
 ### Phase 3: Building Quantum Systems
 
-9. **"Building Quantum Circuits: Chaining Gates Together"** *(Science)* - How to design quantum algorithms, circuit diagrams, and thinking in quantum
+1. **"Building Quantum Circuits: Chaining Gates Together"** *(Science)* - How to design quantum algorithms, circuit diagrams, and thinking in quantum
 
-10. **"Universal Quantum Gates: The Building Blocks of Any Quantum Algorithm"** *(Science)* - Gate decomposition, universality, and the Toffoli gate
+2. **"Universal Quantum Gates: The Building Blocks of Any Quantum Algorithm"** *(Science)* - Gate decomposition, universality, and the Toffoli gate
 
-11. **"Maya and Measurement: Appearance, Reality, and Quantum Potentiality"** *(Philosophical Reflection)* - Exploring how Vedanta's Maya (illusion) and quantum superposition both challenge our notions of definite reality
+3. **"Maya and Measurement: Appearance, Reality, and Quantum Potentiality"** *(Philosophical Reflection)* - Exploring how Vedanta's Maya (illusion) and quantum superposition both challenge our notions of definite reality
 
 ### Phase 4: Advanced Quantum Concepts
 
-12. **"Reversibility and Unitarity: Why Quantum Computing Never Forgets"** *(Science)* - Deep dive into unitary operations and their implications
+1. **"Reversibility and Unitarity: Why Quantum Computing Never Forgets"** *(Science)* - Deep dive into unitary operations and their implications
 
-13. **"Quantum Interference: Making Wrong Answers Cancel Out"** *(Science)* - How quantum algorithms exploit interference patterns to find solutions
+2. **"Quantum Interference: Making Wrong Answers Cancel Out"** *(Science)* - How quantum algorithms exploit interference patterns to find solutions
 
 ---
 

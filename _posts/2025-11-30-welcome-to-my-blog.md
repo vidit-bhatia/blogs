@@ -19,6 +19,7 @@ But there's a twist: alongside the rigorous science, we'll explore philosophical
 ## What Makes This Series Unique?
 
 Most quantum computing resources either:
+
 - Drown you in equations without building intuition, or
 - Oversimplify to the point of being misleading
 
@@ -40,6 +41,7 @@ Along the way, we'll weave in **3 philosophical reflection posts** that explore 
 ## Who Is This For?
 
 You're in the right place if you're:
+
 - A **software engineer** curious about quantum computing
 - An **ML enthusiast** interested in quantum machine learning
 - A **STEM student** looking for an accessible yet rigorous introduction

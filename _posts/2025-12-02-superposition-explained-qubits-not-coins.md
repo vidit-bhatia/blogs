@@ -26,12 +26,12 @@ A spinning coin has a 50% chance of landing heads and 50% chance of landing tail
 
 But a qubit in superposition isn't just about probabilities—it's about **probability amplitudes**. These are complex numbers (involving both real and imaginary components) that determine the likelihood of measuring 0 or 1. The actual probability is the *square* of the amplitude's magnitude.
 
-**Here's a concrete example:** Imagine you have two paths to the same outcome. 
+**Here's a concrete example:** Imagine you have two paths to the same outcome.
 
 With classical probabilities:
 
 - Path A contributes: 30% probability
-- Path B contributes: 20% probability  
+- Path B contributes: 20% probability
 - Total probability: 30% + 20% = 50%
 
 With quantum amplitudes:
@@ -70,7 +70,7 @@ Phase is the secret weapon that makes quantum algorithms work. Here's how:
 
 In short: if probability amplitudes are the "what" of quantum computing (what outcomes are possible), then phase is the "how" (how we orchestrate those possibilities to solve problems). Classical computers have no equivalent—it's purely quantum machinery.
 
-*(Don't worry if gates like Hadamard, S, T, and phase kickback sound mysterious right now—we'll explore all of these in detail in our upcoming posts on single-qubit gates and multi-qubit operations. For now, just know that phase manipulation is a core part of the quantum computing toolkit.)*
+Don't worry if gates like Hadamard, S, T, and phase kickback sound mysterious right now—we'll explore all of these in detail in our upcoming posts on single-qubit gates and multi-qubit operations. For now, just know that phase manipulation is a core part of the quantum computing toolkit.
 
 ### 3. Measurement Isn't Just Observation
 
@@ -78,7 +78,7 @@ When a spinning coin lands, you're just revealing what was always going to happe
 
 This isn't a limitation of our measuring devices. It's a fundamental feature of quantum mechanics. The act of measurement is inherently destructive to quantum states.
 
-**But here's a fascinating twist:** Measurement isn't the only thing that collapses superposition. There's a mysterious process called **decoherence** that gradually leaks quantum information into the environment. When a qubit interacts with the surrounding air molecules, stray electromagnetic fields, or even cosmic rays, it begins to lose its quantum properties and behaves more classically. 
+**But here's a fascinating twist:** Measurement isn't the only thing that collapses superposition. There's a mysterious process called **decoherence** that gradually leaks quantum information into the environment. When a qubit interacts with the surrounding air molecules, stray electromagnetic fields, or even cosmic rays, it begins to lose its quantum properties and behaves more classically.
 
 This is why we don't see everyday objects like chairs or cats in superposition—they're constantly interacting with their environment, causing near-instantaneous decoherence. It's as if the quantum world has a built-in mechanism that "erases" the quantum randomness and superposition at macroscopic scales, leaving us with the definite, classical reality we experience.
 
@@ -92,7 +92,7 @@ Decoherence is both quantum computing's biggest enemy (it destroys our carefully
 
 Let's get more precise. According to quantum mechanics (and explained beautifully in Andrew Thomas's *Hidden In Plain Sight 10*), a qubit is described by a **quantum state** that can be written mathematically as:
 
-```
+```text
 |ψ⟩ = α|0⟩ + β|1⟩
 ```
 
@@ -122,7 +122,7 @@ Let's make this concrete with the most famous quantum superposition, created by 
 
 Start with a qubit in state `|0⟩`. Apply a Hadamard gate. You get:
 
-```
+```text
 |ψ⟩ = (1/√2)|0⟩ + (1/√2)|1⟩
 ```
 
@@ -140,7 +140,7 @@ That last point is crucial. If this were just classical randomness (like a coin 
 
 How do you visualize something that involves complex numbers in high-dimensional space? Enter the **Bloch sphere**—one of the most elegant concepts in quantum computing.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Bloch_sphere.svg" alt="Bloch Sphere visualization" width="400">
+![Bloch Sphere visualization](https://upload.wikimedia.org/wikipedia/commons/6/6b/Bloch_sphere.svg)
 *The Bloch sphere: Any qubit state can be represented as a point on this sphere. Image: Wikimedia Commons*
 
 For a single qubit, you can represent *any* possible quantum state as a point on the surface of a sphere:
@@ -182,19 +182,19 @@ This is why quantum algorithms are so different from classical ones—you're not
 
 Before we wrap up, let's clear up some common confusions:
 
-**Myth 1: "A qubit is both 0 and 1 at the same time"**
+### Myth 1: "A qubit is both 0 and 1 at the same time"
 
 - Reality: A qubit is in a quantum superposition state described by probability amplitudes. It's not *both* in a classical sense—it's in a fundamentally quantum state.
 
-**Myth 2: "Superposition is just our ignorance, like not knowing if Schrödinger's cat is alive or dead"**
+### Myth 2: "Superposition is just our ignorance, like not knowing if Schrödinger's cat is alive or dead"
 
 - Reality: No. Superposition is a real physical state, not epistemic uncertainty. This is proven by interference experiments where quantum superpositions produce results impossible with classical mixtures.
 
-**Myth 3: "Measurement reveals which state the qubit was always in"**
+### Myth 3: "Measurement reveals which state the qubit was always in"
 
 - Reality: No. Measurement doesn't reveal a pre-existing state—it forces the qubit to "choose" a definite state. This is what makes quantum mechanics fundamentally probabilistic.
 
-**Myth 4: "Superposition lets you do infinite parallel computations"**
+### Myth 4: "Superposition lets you do infinite parallel computations"
 
 - Reality: Sort of, but you can only extract one result. The power comes from structuring computations so that interference guides you toward the right answer.
 
@@ -233,6 +233,7 @@ You'll measure 0 with 100% certainty. The two Hadamards "undo" each other throug
 Here's where things get philosophically interesting. If a qubit in superposition isn't definitely 0 or definitely 1, what *is* it before measurement?
 
 Different interpretations of quantum mechanics give different answers:
+
 - **Copenhagen interpretation**: The superposition is real, but reality is fundamentally probabilistic until measurement
 - **Many-worlds interpretation**: Both outcomes are real, and measurement causes the universe to split into branches
 - **Pilot wave theory**: There are hidden variables we can't access that determine the outcome
