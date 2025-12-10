@@ -8,9 +8,7 @@ author: Vidit Bhatia
 description: "Discover why measuring a quantum system fundamentally changes it, what 'observation' really means, and how decoherence bridges the quantum-classical divide."
 ---
 
-<div style="text-align: center; margin: 2em 0;">
-  <img src="{{ '/assets/images/headerimage.png' | relative_url }}" alt="Quantum Measurement and the Observer Effect" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-</div>
+![Quantum Measurement and the Observer Effect]({{ '/assets/images/headerimage.png' | relative_url }})
 
 Here's something that should bother you: **looking at something changes it.**
 
@@ -90,6 +88,7 @@ P₀ = |0⟩⟨0|    and    P₁ = |1⟩⟨1|
 ```
 
 These operators satisfy:
+
 - `P₀ + P₁ = I` (completeness: they cover all possibilities)
 - `P₀ P₁ = 0` (orthogonality: outcomes are mutually exclusive)
 - `P₀² = P₀` and `P₁² = P₁` (projection property)
@@ -97,16 +96,19 @@ These operators satisfy:
 When you measure state `|ψ⟩ = α|0⟩ + β|1⟩`:
 
 **Probability of outcome 0**:
+
 ```text
 p(0) = ⟨ψ|P₀|ψ⟩ = |⟨0|ψ⟩|² = |α|²
 ```
 
 **Probability of outcome 1**:
+
 ```text
 p(1) = ⟨ψ|P₁|ψ⟩ = |⟨1|ψ⟩|² = |β|²
 ```
 
 **Post-measurement state** (if you measured 0):
+
 ```text
 |ψ'⟩ = P₀|ψ⟩ / √⟨ψ|P₀|ψ⟩ = P₀|ψ⟩ / √|α|² = |0⟩
 ```
@@ -148,9 +150,10 @@ Here's where things get philosophically loaded. The term "observer effect" makes
 
 In quantum mechanics, "observation" or "measurement" simply means:
 
-> **Any interaction with a macroscopic apparatus that extracts classical information from a quantum system**
+> Any interaction with a macroscopic apparatus that extracts classical information from a quantum system
 
 The "observer" doesn't need to be conscious. It can be:
+
 - A photon detector
 - A magnetic field sensor
 - A screen that records particle positions
@@ -183,7 +186,7 @@ Decoherence is the process by which quantum superpositions are destroyed through
 
 No quantum system is perfectly isolated. Every system interacts with its environment—air molecules, thermal radiation, electromagnetic fields, etc. These interactions cause the quantum system to become **entangled** with the environment.
 
-*(We'll dive deep into entanglement in a future post, but briefly: entanglement is a quantum correlation where measuring one system instantly affects another, no matter the distance.)*
+**Note:** We'll dive deep into entanglement in a future post, but briefly: entanglement is a quantum correlation where measuring one system instantly affects another, no matter the distance.
 
 When a qubit in superposition becomes entangled with environmental degrees of freedom, the superposition appears to collapse—even without a formal "measurement."
 
@@ -237,6 +240,7 @@ The **diagonal terms** (`|α|²` and `|β|²`) sit on the main diagonal (top-lef
 The **off-diagonal terms** (`α*β` and `αβ*`) sit off the main diagonal (top-right and bottom-left). These are generally **complex numbers** that encode something purely quantum: **coherence**. They represent the fact that the quantum amplitudes `α` and `β` have a definite phase relationship—they can interfere with each other, like waves. These terms capture the "quantumness" of superposition. If the off-diagonal terms are non-zero, the system is in a genuine quantum superposition. If they're zero, the system behaves classically—it's just a statistical mixture.
 
 **Concrete example:** For the equal superposition `|ψ⟩ = (1/√2)(|0⟩ + |1⟩)`, where `α = β = 1/√2`:
+
 - Diagonal: `|α|² = |β|² = 1/2` (50% chance of each outcome)
 - Off-diagonal: `α*β = (1/√2)(1/√2) = 1/2` (strong quantum coherence)
 
@@ -255,11 +259,13 @@ This is called a **mixed state**, as opposed to the original **pure state**. Fro
 ### Decoherence Timescale
 
 How fast does decoherence happen? It depends on:
+
 - Strength of system-environment coupling
 - Number of environmental degrees of freedom
 - Temperature
 
 For a single qubit in a quantum computer, typical decoherence times are:
+
 - **Superconducting qubits**: 10–100 microseconds
 - **Ion trap qubits**: milliseconds to seconds
 - **Photonic qubits**: can be very long (limited by detection efficiency)
@@ -273,12 +279,14 @@ For macroscopic objects? Decoherence is **instantaneous** on any measurable time
 Here's a subtle but important distinction:
 
 **Decoherence**:
+
 - System becomes entangled with environment
 - Superposition appears to collapse from the system's perspective
 - The total system+environment state is still a pure quantum state
 - Reversible in principle (if you could track and reverse all environmental interactions)
 
 **Measurement**:
+
 - Irreversible information extraction
 - Classical outcome is recorded
 - Truly non-reversible in practice
@@ -296,9 +304,11 @@ Despite a century of quantum mechanics, the **measurement problem** remains one 
 Different interpretations of quantum mechanics offer different answers:
 
 ### 1. Copenhagen Interpretation
+
 Measurement is a fundamental, irreducible part of quantum mechanics. The wave function collapses upon measurement, and that's just how nature works. Don't ask why.
 
 ### 2. Many-Worlds Interpretation
+
 The wave function never collapses. Every measurement outcome occurs in a different branch of the universe. You experience one outcome, but all outcomes happen.
 
 ```text
@@ -308,9 +318,11 @@ The wave function never collapses. Every measurement outcome occurs in a differe
 Both branches exist; you just perceive one.
 
 ### 3. Decoherence-Based Interpretations
+
 Decoherence explains the **appearance** of collapse by showing how superpositions become effectively classical through environmental interaction. The measurement problem is resolved (or at least softened) by recognizing that observers are part of the environment.
 
 ### 4. Objective Collapse Theories
+
 The wave function actually collapses spontaneously when systems reach certain thresholds (mass, complexity, etc.). Measurement is just a special case of this physical process.
 
 We won't resolve this debate here—physicists haven't resolved it in 100 years! But understanding the problem is crucial for thinking clearly about quantum mechanics.
@@ -338,6 +350,7 @@ Once you measure, the quantum state is gone. You can't measure halfway through a
 Quantum computers must maintain superposition long enough to run the algorithm. But decoherence is constantly trying to collapse the state through environmental interaction.
 
 This is why quantum computers require:
+
 - **Isolation**: Cryogenic cooling, vacuum chambers, magnetic shielding
 - **Error correction**: Quantum error correction codes that protect against decoherence
 - **Fast operations**: Complete the computation before decoherence destroys it
@@ -395,12 +408,15 @@ This is the quantum version of the watched pot never boiling—except it's liter
 In real quantum computers, how do we perform measurements?
 
 ### Superconducting Qubits
+
 Apply a microwave pulse and measure the reflected signal. The reflection depends on the qubit's state, allowing you to distinguish `|0⟩` from `|1⟩`.
 
 ### Ion Traps
+
 Shine a laser on the ion. If it's in state `|0⟩`, it fluoresces (emits photons). If it's in `|1⟩`, it doesn't. Count the photons.
 
 ### Photonic Qubits
+
 Use photodetectors to detect the presence or absence of photons, or measure polarization with beam splitters and detectors.
 
 All these methods share a common feature: **amplification**. A single quantum event (qubit state) triggers a macroscopic, measurable signal (voltage, photon count, etc.). This amplification is what makes measurement irreversible and classical.
@@ -420,6 +436,7 @@ If it's objective reality, how can observation change it? If it's just knowledge
 **Bell's theorem** is one of the most profound results in physics. It addresses the question: "Is quantum randomness real, or are there hidden variables we just can't see?" Einstein famously believed in hidden variables—that particles have definite properties all along, and quantum mechanics just doesn't tell us what they are ("God does not play dice").
 
 Bell showed mathematically that **if hidden variables exist and obey locality** (no faster-than-light influence), then certain statistical correlations between entangled particles must satisfy an inequality (Bell's inequality). But quantum mechanics predicts violations of this inequality. Experiments have repeatedly confirmed quantum mechanics: **Bell's inequality is violated in nature**. This means either:
+
 - Hidden variables don't exist (quantum randomness is fundamental), or
 - Locality is violated (measuring one particle instantly affects another, even at a distance)
 
@@ -429,7 +446,7 @@ Most physicists accept the first option. Quantum randomness seems fundamental.
 
 Is consciousness required for collapse? (Almost certainly not—most physicists reject this.) Or is measurement purely physical, a matter of information transfer and decoherence?
 
-*(Philosophical aside: These questions resonate with ancient debates in Vedantic philosophy about the nature of reality and the role of the observer. In Advaita Vedanta, the distinction between observer (seer) and observed (seen) is considered ultimately illusory—both are aspects of one non-dual consciousness (Brahman). While quantum mechanics doesn't prove Vedanta (and vice versa), both frameworks challenge naive realism and ask deep questions about observation, reality, and the nature of knowledge. We'll explore these parallels in our upcoming philosophical reflection post.)*
+**Philosophical aside:** These questions resonate with ancient debates in Vedantic philosophy about the nature of reality and the role of the observer. In Advaita Vedanta, the distinction between observer (seer) and observed (seen) is considered ultimately illusory—both are aspects of one non-dual consciousness (Brahman). While quantum mechanics doesn't prove Vedanta (and vice versa), both frameworks challenge naive realism and ask deep questions about observation, reality, and the nature of knowledge. We'll explore these parallels in our upcoming philosophical reflection post.
 
 ---
 
@@ -454,6 +471,7 @@ The quantum world is a superposition of possibilities. Measurement forces a choi
 Now that you understand measurement and decoherence, you're ready for our next philosophical reflection: **"The Observer and the Witness: Quantum Measurement Meets Vedantic Consciousness"**
 
 We'll explore:
+
 - The role of observation in quantum mechanics and Vedanta
 - Consciousness as witness (Sakshi) vs. physical measurement
 - Why quantum mechanics doesn't require conscious observers
@@ -463,7 +481,7 @@ This will be a bridge between the hard science we've covered and deeper question
 
 After that, we'll dive into **single-qubit gates**—the Hadamard, Pauli, and phase gates that manipulate quantum states on the Bloch sphere.
 
-Stay curious. 🌊
+Stay curious.
 
 ---
 

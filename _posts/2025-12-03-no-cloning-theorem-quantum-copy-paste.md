@@ -8,9 +8,7 @@ author: Vidit Bhatia
 description: "Discover why nature forbids copying quantum states—and how this 'limitation' becomes the foundation for unbreakable quantum cryptography."
 ---
 
-<div style="text-align: center; margin: 2em 0;">
-  <img src="{{ '/assets/images/no_cloning.png' | relative_url }}" alt="No-Cloning Theorem: Why quantum information cannot be copied" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-</div>
+![No-Cloning Theorem: Why quantum information cannot be copied]({{ '/assets/images/no_cloning.png' | relative_url }})
 
 In classical computing, copying is trivial. Hit Ctrl+C, Ctrl+V, and you've duplicated your data perfectly. Want a backup? Copy it. Want to share a file? Copy it. Want to debug? Copy the state and inspect it without disturbing the original.
 

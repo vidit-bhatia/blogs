@@ -48,6 +48,10 @@ When in doubt, **label clearly** what is:
   - Short paragraphs, clear headings, and bullet points for readability on GitHub Pages and LinkedIn.
   - Simple language and vivid analogies.
   - Distinguish sections with explicit headings such as “Science corner”, “Speculation corner”, “Vedanta corner” when mixing these angles.
+  - Make sure we do not add any emojis in the blogs
+- Humor:
+  - Use light, nerdy humor to keep the reader engaged.
+  - Avoid sarcasm or jokes that could be misinterpreted as dismissive of science or spirituality.
 
 Humor must never distort the technical content, especially when connecting to AGI, ethics, or spiritual themes.
 
