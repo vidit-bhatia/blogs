@@ -8,7 +8,7 @@ author: Vidit Bhatia
 description: "Discover why measuring a quantum system fundamentally changes it, what 'observation' really means, and how decoherence bridges the quantum-classical divide."
 ---
 
-<img src="{{ '/assets/images/measurement_heading.png' | relative_url }}" alt="Quantum Measurement and the Observer Effect" style="width: 100%; max-width: 100%; height: auto; display: block;">
+![Quantum Measurement and the Observer Effect]({{ '/assets/images/measurement_heading.png' | relative_url }}){: .full-width-image}
 
 Here's something that should bother you: **looking at something changes it.**
 

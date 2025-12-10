@@ -156,3 +156,18 @@ body {
   display: table;
   clear: both;
 }
+
+/* Full width responsive image */
+.full-width-image {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 !important;
+}
+
+/* Ensure paragraph wrapper doesn't constrain image */
+.post-content p:has(.full-width-image) {
+  margin: 0;
+  padding: 0;
+}
