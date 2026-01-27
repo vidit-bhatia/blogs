@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Single-Qubit Gates: Your First Quantum Operations"
-date: 2025-12-20 10:00:00 +0000
+date: 2026-01-25 10:00:00 +0000
 categories: quantum-computing
 tags: [single-qubit-gates, quantum-gates, hadamard-gate, pauli-gates, bloch-sphere, quantum-algorithms]
 author: Vidit Bhatia
