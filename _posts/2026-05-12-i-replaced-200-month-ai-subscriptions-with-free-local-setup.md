@@ -14,7 +14,7 @@ Not skimming documentation. Not watching tutorials. Actually writing code. But t
 
 That train ride became the seed for everything that followed.
 
-<img src="{{ "/assets/images/free-local-ai-coding-hero.svg" | relative_url }}" alt="Free Local AI for Coding hero image" width="1200">
+![Free Local AI for Coding hero image]({{ '/assets/images/free-local-ai-coding-hero.svg' | relative_url }}){: .full-width-image}
 
 ## The Setup That Started on a Train
 
